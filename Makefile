@@ -2,7 +2,7 @@
 TARGET_EXEC := clox
 
 BUILD_DIR := ./bin
-SRC_DIRS := ./src
+SRC_DIRS := ./src ./include
 
 # Find all the C and C++ files we want to compile
 # Note the single quotes around the * expressions. The shell will incorrectly expand these otherwise, but we want to send the * directly to the find command.
